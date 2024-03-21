@@ -1,0 +1,300 @@
+@font-face {
+  font-family: "shamel";
+  src: url(fonts/shamel.ttf) format("truetype");
+}
+@font-face {
+  font-family: "lama";
+  src: url(fonts/lama.ttf) format("truetype");
+}
+:root {
+  --yellow: #fec430;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  font-family: "Shamel";
+}
+.landing {
+  background: url(/img/landing.jpg) no-repeat top/cover;
+  height: 100vh;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  margin: 0 5rem;
+}
+.item-link {
+  margin: 0 3rem;
+  font-size: 2rem;
+  transition: 0.3s;
+}
+.item-link:hover {
+  color: var(--yellow);
+  transform: translateX(10px);
+}
+nav .youtube {
+  display: flex;
+  align-items: center;
+}
+nav .youtube img {
+  cursor: pointer;
+  width: 12rem;
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+nav .logo img {
+  width: 8rem;
+  cursor: pointer;
+  margin: auto;
+}
+nav .bars {
+  display: none;
+}
+.hero {
+  font-family: "lama";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+  position: relative;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 8rem;
+  margin-bottom: 3rem;
+}
+.hero h4 {
+  color: #fff;
+  width: 40%;
+  line-height: 1.7;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.hero button {
+  font-family: "lama";
+  width: 15rem;
+  background-color: var(--yellow);
+  border-color: transparent;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  gap: 1rem;
+  margin-bottom: 6rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.hero button:hover {
+  background-color: #ffd97a;
+}
+@keyframes Arrowwwww {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes MMouse {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.hero button:hover img {
+  animation-name: Arrowwwww;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.hero button p {
+  font-size: 1.5rem;
+}
+.hero button img {
+  width: 2rem;
+}
+.hero .down {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero .mouse {
+  width: 6rem;
+  cursor: pointer;
+}
+.hero .mouse:hover {
+  animation-name: MMouse;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/* Responsive Landing */
+@media screen and (max-width: 1030px) {
+  html {
+    font-size: 50%;
+  }
+  .landing {
+    height: 90vh;
+  }
+  .hero {
+    padding-top: 15rem;
+  }
+  .hero button {
+    width: 20rem;
+    height: 5rem;
+  }
+  .hero button p {
+    font-size: 3rem;
+  }
+  .hero .down {
+    font-size: 4rem;
+  }
+  .hero .mouse {
+    width: 12rem;
+  }
+  .hero button img {
+    width: 4rem;
+  }
+}
+@media screen and (max-width: 810px) {
+  html {
+    font-size: 40%;
+  }
+  .landing {
+    height: 80vh;
+  }
+  .hero {
+    padding-top: 15rem;
+  }
+  .hero button {
+    width: 20rem;
+    height: 5rem;
+  }
+  .hero button p {
+    font-size: 2.5rem;
+  }
+  .hero .down {
+    font-size: 3rem;
+  }
+  .hero .mouse {
+    width: 10rem;
+  }
+  .hero button img {
+    width: 4rem;
+  }
+}
+@media screen and (max-width: 660px) {
+  html {
+    font-size: 30%;
+  }
+  .landing {
+    height: 80vh;
+  }
+  .hero {
+    padding-top: 25rem;
+  }
+  .hero button {
+    width: 25rem;
+    height: 5rem;
+  }
+  .hero button img {
+    width: 3rem;
+  }
+  .hero button p {
+    font-size: 3rem;
+  }
+  .hero .down {
+    font-size: 4rem;
+  }
+  .hero .mouse {
+    width: 15rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 40%;
+  }
+  .hero {
+    padding-top: 15rem;
+  }
+  .hero h1 {
+    font-size: 5rem;
+  }
+  nav .items.active {
+    display: flex;
+  }
+  nav .items {
+    position: absolute;
+    left: 0;
+    top: 7vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    display: none;
+    background-color: var(--yellow);
+    color: black;
+    padding: 2rem 0;
+    z-index: 1;
+    border-bottom: 1px solid black;
+  }
+
+  nav .items .item-link {
+    color: black;
+    margin: 1rem 0;
+  }
+  nav .youtube {
+    display: none;
+  }
+  nav .bars {
+    display: block;
+    width: 6rem;
+    z-index: 2;
+    align-self: center;
+  }
+  nav .logo img {
+    width: 15rem;
+    padding-top: 2rem;
+  }
+}
