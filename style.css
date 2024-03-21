@@ -286,4 +286,8 @@ nav .bars {
     width: 15rem;
     padding-top: 2rem;
   }
+  .hero button {
+    width: 25rem;
+    height: 8rem;
+  }
 }
