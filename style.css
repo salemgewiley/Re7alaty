@@ -30,10 +30,10 @@ body {
 }
 nav {
   display: flex;
+  margin: 0 5rem;
+  height: 10vh;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1rem;
-  margin: 0 5rem;
 }
 .item-link {
   margin: 0 3rem;
@@ -67,10 +67,10 @@ nav .bars {
 .hero {
   font-family: "lama";
   display: flex;
+  height: 90vh;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-top: 10rem;
-  position: relative;
 }
 .hero h1 {
   color: #fff;
@@ -174,9 +174,6 @@ nav .bars {
   html {
     font-size: 50%;
   }
-  .landing {
-    height: 90vh;
-  }
   .hero {
     padding-top: 15rem;
   }
@@ -185,27 +182,24 @@ nav .bars {
     height: 5rem;
   }
   .hero button p {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .hero .down {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .hero .mouse {
-    width: 12rem;
+    width: 8rem;
   }
   .hero button img {
-    width: 4rem;
+    width: 2rem;
   }
 }
 @media screen and (max-width: 810px) {
   html {
     font-size: 40%;
   }
-  .landing {
-    height: 80vh;
-  }
   .hero {
-    padding-top: 15rem;
+    /* padding-bottom: 40rem; */
   }
   .hero button {
     width: 20rem;
@@ -221,18 +215,16 @@ nav .bars {
     width: 10rem;
   }
   .hero button img {
-    width: 4rem;
+    width: 3rem;
   }
 }
 @media screen and (max-width: 660px) {
   html {
     font-size: 30%;
   }
-  .landing {
-    height: 80vh;
-  }
+
   .hero {
-    padding-top: 25rem;
+    padding-bottom: 40rem;
   }
   .hero button {
     width: 25rem;
@@ -247,16 +239,13 @@ nav .bars {
   .hero .down {
     font-size: 4rem;
   }
-  .hero .mouse {
-    width: 15rem;
-  }
 }
 @media screen and (max-width: 500px) {
   html {
     font-size: 40%;
   }
   .hero {
-    padding-top: 15rem;
+    padding-bottom: 40rem;
   }
   .hero h1 {
     font-size: 5rem;
