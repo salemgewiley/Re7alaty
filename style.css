@@ -14,8 +14,10 @@
   margin: 0;
   padding: 0;
 }
+
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
@@ -42,7 +44,6 @@ nav {
 }
 .item-link:hover {
   color: var(--yellow);
-  transform: translateX(10px);
 }
 nav .youtube {
   display: flex;
@@ -103,6 +104,14 @@ nav .bars {
 .hero button:hover {
   background-color: #ffd97a;
 }
+.hero button img {
+  animation-name: Arrowwwww;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+   width: 2rem;
+}
 @keyframes Arrowwwww {
   0% {
     transform: translateX(0px);
@@ -137,20 +146,12 @@ nav .bars {
     transform: translateY(0px);
   }
 }
-.hero button:hover img {
-  animation-name: Arrowwwww;
-  animation-duration: 4s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
+
 
 .hero button p {
   font-size: 1.5rem;
 }
-.hero button img {
-  width: 2rem;
-}
+
 .hero .down {
   color: #fff;
   font-size: 1.5rem;
@@ -198,9 +199,6 @@ nav .bars {
   html {
     font-size: 40%;
   }
-  .hero {
-    /* padding-bottom: 40rem; */
-  }
   .hero button {
     width: 20rem;
     height: 5rem;
@@ -220,7 +218,13 @@ nav .bars {
 }
 @media screen and (max-width: 660px) {
   html {
-    font-size: 30%;
+    font-size: 40%;
+  }
+  nav .item-link {
+    font-size: 1rem;
+  }
+  nav .youtube img {
+    width: 8rem;
   }
 
   .hero {
@@ -248,7 +252,7 @@ nav .bars {
     padding-bottom: 40rem;
   }
   .hero h1 {
-    font-size: 5rem;
+    font-size: 5.8rem;
   }
   nav .items.active {
     display: flex;
@@ -288,3 +292,261 @@ nav .bars {
   }
   
 }
+
+/* Trips */
+.trips {
+  font-family: "lama";
+  display: flex;
+  flex-direction: column;
+}
+.trips-title{
+margin: 3rem 1rem;
+}
+.s-h{
+  color: #A5A5A5;
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+.l-h {
+font-size: 4.5rem;
+}
+.trips .trips-content
+{
+  margin: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.trips .trips-content .trip {
+  padding-left: 20px;
+  width: 380px;
+  transition: 1s;
+  margin-bottom: 20px;
+}
+.trips .trips-content .trip:hover {
+  transform: translateY(-20px);
+}
+
+/* responsive */
+@media screen and (max-width: 500px)
+{
+  .trips .trips-content .trip {
+  width: 200px;
+}
+}
+
+/* Services */
+.services {
+  margin-top: 10rem;
+  font-family: "lama";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services .services-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.services .services-content {
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F1EFFD;
+  width:80%;
+
+  border-radius: 40px;
+  flex-wrap: wrap;
+}
+.services .service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10px;
+
+  
+
+}
+.services .service img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+.services .service .service-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.services .service .service-desc {
+  color: #4C4C4C;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Plans */
+
+.plans {
+  display: flex;
+  flex-direction: column;
+  font-family: "lama";
+  margin: 5rem 2rem;
+}
+.plans-content{
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.plan-card {
+  width: 400px;
+  margin: 30px;
+
+}
+.card-head {
+  padding: 20px;
+}
+.card-head h2 {
+  padding: 10px 0;
+  font-size: 2rem;
+}
+.card-head p{
+  color: #191919 #fff !important;
+  font-size: 1.4rem;
+}
+.card-head hr {
+  margin-top: 20px ;
+  color: #000;
+}
+.plan-card span {
+  font-size: 3rem;
+}
+.plan-card{
+  display: flex;
+  flex-direction: column;
+  background: #FFE7AC;
+  border-radius: 10px;
+  box-shadow: 4px 5px 0px 0px black;
+}
+.card-true {
+  display: flex;
+  flex-direction: column;
+  
+}
+.card-true{
+  list-style: none;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-true li {
+  display: flex;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+.card-true img {
+  padding-left: 10px;
+}
+.plan-card button {
+  font-family: "lama";
+  width: 90%;
+  background-color: transparent;
+ border: 1px solid black !important;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  gap: 1rem;
+  margin-bottom: 6rem;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 20px;
+  align-self: center;
+}
+.plan-card button:hover {
+  background-color: #ffd97a;
+}
+.plan-card button img {
+  animation-name: Arrowwwww;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+   width: 2rem;
+}
+.cardActive{
+  transform: translateY(-20px);
+  color: white;
+  background-color: #46368B;
+  transition: 1s;
+
+}
+/* testimonials */
+.testimonials {
+  font-family: "lama";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials .testimonials-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.testimonials .testimonials-opinion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.testimonials .stars {
+  margin-top: 20px;
+}
+.testimonials .testimonials-opinion .testimonials-card {
+  background-color: #F1EFFD;
+  border-radius: 20px;
+  padding: 0 20px;
+  margin: 0 30px;
+  width: 300px;
+  margin-bottom: 40px;
+  height: 250px;
+}
+.testimonials .testimonials-card .testimonials-card-head{
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.testimonials .testimonials-card .testimonials-card-head img{
+  border-radius: 50%;
+  width: 50px;
+}
+.testimonials .testimonials-card .testimonials-card-head h3{
+  font-size: 25px;
+  padding-right: 15px;
+}
+.testimonials .testimonials-card .testimonials-card-desc p{
+  font-size: 15px;
+  margin-bottom: 30px;
+  /* width: 50%; */
+  color: #4C4C4C;
+}
+.testimonials .testimonials-arrows {
+  margin-top: 10px;
+}
+@media screen and (max-width: 720px)
+{
+  .testimonials .testimonials-arrows{
+    display: none;
+  }
+}
+
+
