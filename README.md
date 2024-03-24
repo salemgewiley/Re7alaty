@@ -1,6 +1,5 @@
 # Re7alaty
 
-```markdown
 # Responsive Website using CSS Only
 
 This is a simple website showcasing responsive design skills implemented using only CSS. The website is designed for travel and tourism, providing information about trips, services, pricing plans, customer testimonials, and a contact section.
@@ -34,6 +33,5 @@ This website is created to provide users with information about various travel d
 - [Figma Design](https://www.figma.com/file/tGcoZCuq4aTjFg7AF66qDU/Rehlate-Landing-Page-(Community)?type=design&node-id=505-2&mode=design&t=eEdhvJ2uBEkOxuq8-0)
 - [Live Preview](https://re7alaty.vercel.app/)
 
-```
 
 
