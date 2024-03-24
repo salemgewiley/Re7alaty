@@ -1,11 +1,39 @@
 # Re7alaty
 
-# Responsive Design
-![image](https://github.com/salemgewiley/Re7alaty/assets/105030635/c7f2f301-d59a-4e55-aab8-437a38662bb6)
-![image](https://github.com/salemgewiley/Re7alaty/assets/105030635/1115df81-103c-4212-8f60-92bbb37e3b3e)
+```markdown
+# Responsive Website using CSS Only
+
+This is a simple website showcasing responsive design skills implemented using only CSS. The website is designed for travel and tourism, providing information about trips, services, pricing plans, customer testimonials, and a contact section.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Links](#links)
 
 
+## Introduction
 
-# Figma Link : https://www.figma.com/file/tGcoZCuq4aTjFg7AF66qDU/Rehlate-Landing-Page-(Community)?type=design&node-id=505-2&mode=design&t=eEdhvJ2uBEkOxuq8-0
+This website is created to provide users with information about various travel destinations, services offered, pricing plans, and customer testimonials.
 
-# live Preview : https://re7alaty.vercel.app/
+## Features
+
+- Responsive design ensures optimal viewing experience across different devices and screen sizes.
+- Navigation menu for easy access to different sections of the website.
+- Sections for displaying trips, services, pricing plans, and customer testimonials.
+- Contact form for users to reach out with inquiries or feedback.
+
+## Technologies Used
+
+- HTML
+- CSS
+-JavaScript
+
+## Links
+
+- [Figma Design](https://www.figma.com/file/tGcoZCuq4aTjFg7AF66qDU/Rehlate-Landing-Page-(Community)?type=design&node-id=505-2&mode=design&t=eEdhvJ2uBEkOxuq8-0)
+- [Live Preview](https://re7alaty.vercel.app/)
+
+```
+
+
