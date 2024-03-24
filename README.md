@@ -1,8 +1,10 @@
 # Re7alaty
 
 # Responsive Website using CSS Only
-- Pc Version ![screencapture-re7alaty-vercel-app-2024-03-24-20_06_13](https://github.com/salemgewiley/Re7alaty/assets/105030635/bdfc5809-7120-41f6-a8d7-4a4dbf2c6d30)
-- Mobile Version ![screencapture-re7alaty-vercel-app-2024-03-24-20_06_37](https://github.com/salemgewiley/Re7alaty/assets/105030635/1d8fae79-7874-47c8-b168-5fb132e6e3bf)
+- Pc Version
+   ![screencapture-re7alaty-vercel-app-2024-03-24-20_06_13](https://github.com/salemgewiley/Re7alaty/assets/105030635/bdfc5809-7120-41f6-a8d7-4a4dbf2c6d30)
+- Mobile Version
+  ![screencapture-re7alaty-vercel-app-2024-03-24-20_06_37](https://github.com/salemgewiley/Re7alaty/assets/105030635/1d8fae79-7874-47c8-b168-5fb132e6e3bf)
 
 This is a simple website showcasing responsive design skills implemented using only CSS. The website is designed for travel and tourism, providing information about trips, services, pricing plans, customer testimonials, and a contact section.
 
